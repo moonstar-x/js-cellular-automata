@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Game of Life</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300|Roboto+Condensed:700|Lobster">
+    <link type="text/css" rel="stylesheet" href="./style/index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+    <script src="./script/sketch.js"></script>
+    <script src="./script/cell.js"></script>
+    <script src="./script/cells.js"></script>
+  </head>
+  <body>
+    <h1 class="title">
+      Game of Life
+    </h1>
+    <div id="app-holder"></div>
+      <div class="box">
+        <button id="start-button" onclick="start()">Start</button>
+        <button id="reset-button" onclick="reset()">Reset</button>
+        <button id="randomize-button" onclick="randomize()">Randomize</button>
+        <span>Framerate: </span>
+        <input type="range" min="1" max="60" value="30" class="slider" id="framerate-slider">
+        <span id="framerate-slider-label"></span>
+      </div>
+    <script src="./script/framerateSlider.js"></script>
+  </body>
+</html>

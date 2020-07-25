@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #313131;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  position: relative;
+  color: white;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+.box {
+  margin: 10px;
+  background-color: #4b4b4b;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.box > button {
+  margin: 0 5px;
+}
+
+.box > span {
+  margin: 0.5em;
+}
+
+.box > span, .box > button {
+  font-size: 1.25em;
+}
+
+.box > input {
+  vertical-align: text-bottom;
+}
+
+#app-holder {
+  margin: 10px;
+}
